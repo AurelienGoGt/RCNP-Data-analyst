@@ -1,0 +1,17 @@
+WITH 
+Table_1 (prix_m2_appart_2pieces) AS 
+(SELECT SUM(Valeur_fonciere) / SUM(Surface_carrez)
+FROM mutation
+INNER JOIN Logement on mutation.id = logement.id
+WHERE Nombres_de_pieces = 2 ) ,
+
+Table_2 (prix_m2_appart_3pieces) AS
+(SELECT SUM(Valeur_fonciere) / SUM(Surface_carrez)
+FROM mutation
+INNER JOIN Logement on mutation.id = logement.id
+WHERE Nombres_de_pieces = 3 ) 
+
+SELECT (( prix_m2_appart_3pieces - prix_m2_appart_2pieces  ) / prix_m2_appart_3pieces * 100)
+AS difference_pourcentage_entre_2_et_3_pieces
+FROM Table_1, Table_2
+;

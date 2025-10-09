@@ -1,0 +1,45 @@
+SELECT A.Commune,
+
+
+	((B.countAvrilJuin) - (CountJanvMars)) / (A.CountJanvMars) * 100 AS Taux_Evolution
+
+
+FROM
+
+
+	(SELECT COMMUNE AS Commune, COUNT(MUTATION.ID) AS CountJanvMars
+	
+	FROM LOCALISATION
+	
+	INNER JOIN MUTATION ON MUTATION.ID = LOCALISATION.ID
+	
+	WHERE DATE_MUTATION BETWEEN '2020-01-01' AND '2020-03-31'
+	
+	GROUP BY COMMUNE) A
+
+
+INNER JOIN 
+
+
+	(SELECT COMMUNE AS Commune, COUNT(LOCALISATION.ID) AS CountAvrilJuin
+	
+	FROM LOCALISATION
+	
+	INNER JOIN MUTATION ON MUTATION.ID = LOCALISATION.ID	
+	
+	WHERE DATE_MUTATION BETWEEN '2020-04-01' AND '2020-06-30'
+	
+	GROUP BY COMMUNE) B
+	
+	ON A.Commune = B.Commune
+	
+	
+WHERE ((B.CountAvrilJuin) - (CountJanvMars)) / (A.CountJanvMars) * 100 > 20
+
+
+ORDER BY ((B.CountAvrilJuin) - (CountJanvMars)) / (A.CountJanvMars) * 100
+
+
+DESC 
+
+	;

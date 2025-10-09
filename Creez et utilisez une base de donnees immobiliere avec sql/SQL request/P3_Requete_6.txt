@@ -1,0 +1,50 @@
+WITH 
+
+A (date_1er_trimestre) 
+
+-- Création table temporaire A
+
+AS  (SELECT COUNT(DATE_MUTATION)
+
+-- Selection date mutation
+
+    FROM MUTATION
+   
+   -- à partir de la table mutation 
+   
+   WHERE DATE_MUTATION BETWEEN '2020-01-01' AND '2020-03-31') 
+,
+
+-- Date pour le premier trimestre 
+ 
+B (date_2eme_trimestre) AS 
+
+-- Création table temporaire B
+
+   (SELECT COUNT(DATE_MUTATION)
+   
+--   Selection date mutation
+   
+    FROM MUTATION
+
+-- à partir de la table mutation 
+
+    WHERE DATE_MUTATION BETWEEN '2020-04-01' AND '2020-06-30')
+    
+-- Date pour le deuxiéme trimestre   
+    
+SELECT (((date_2eme_trimestre - date_1er_trimestre) / date_1er_trimestre) * 100) AS taux_evolution ,
+
+-- Calcul du taux d'évolution + nom de colonne
+
+date_1er_trimestre AS nb_1er_trimestre ,
+
+-- Aliase pour la colonne 1
+
+ date_2eme_trimestre AS nb_2eme_trimestre
+
+-- Aliase pour la colonne 2
+
+FROM A, B ;
+
+-- à partir des tables éphéméres A et B

@@ -1,0 +1,17 @@
+SELECT COUNT(*) AS "Nombres_d'appartement" -- Pour calculer le nombre d'appartements
+
+FROM logement -- Sur la table Logement
+
+JOIN mutation
+
+ON logement.id = mutation.Logement_ID 
+
+-- Jointure Logement => Mutation
+
+WHERE type_de_local = 'Appartement' 
+
+-- type_de_local specifique => Appartement
+
+AND date_mutation BETWEEN '2020-01-01' AND '2020-06-30'
+
+-- Date durant le premier semestre

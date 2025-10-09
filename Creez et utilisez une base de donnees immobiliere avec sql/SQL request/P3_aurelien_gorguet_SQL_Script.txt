@@ -1,0 +1,47 @@
+
+CREATE TABLE Localisation (
+                ID INTEGER NOT NULL,
+                Code_Departement VARCHAR(5) NOT NULL,
+                Numero_de_voie VARCHAR(10),
+                Type_de_voie VARCHAR(30),
+                Voie VARCHAR(30) NOT NULL,
+                Code_postal VARCHAR(5) NOT NULL,
+                Commune VARCHAR(30) NOT NULL,
+                Section VARCHAR(5),
+                Numero_de_plan CHAR(10) NOT NULL,
+                CONSTRAINT Localisation_pk PRIMARY KEY (ID)
+);
+
+
+CREATE TABLE Logement (
+                ID INTEGER NOT NULL,
+                Surface_carrez FLOAT NOT NULL,
+                Surface_reel_bati FLOAT NOT NULL,
+                Nombres_de_pieces SMALLINT NOT NULL,
+                Surface_terrain INTEGER,
+                Type_De_Local VARCHAR(15) NOT NULL,
+                Localisation_ID INTEGER NOT NULL,
+                CONSTRAINT Logement_pk PRIMARY KEY (ID)
+);
+
+
+CREATE TABLE Mutation (
+                ID INTEGER NOT NULL,
+                Valeur_fonciere FLOAT,
+                Date_mutation DATE NOT NULL,
+                Logement_ID INTEGER NOT NULL,
+                CONSTRAINT Mutation_pk PRIMARY KEY (ID)
+);
+
+
+ALTER TABLE Logement ADD CONSTRAINT Localisation_Logement_fk
+FOREIGN KEY (Localisation_ID)
+REFERENCES Localisation (ID)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE Mutation ADD CONSTRAINT Logement_Mutation_fk
+FOREIGN KEY (Logement_ID)
+REFERENCES Logement (ID)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;

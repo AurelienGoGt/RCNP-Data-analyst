@@ -1,0 +1,27 @@
+
+SELECT localisation.commune,  CAST(AVG(mutation.valeur_fonciere) AS DECIMAL(15,2)) AS "Valeur moyenne"
+
+--
+
+FROM mutation
+
+--
+
+INNER JOIN logement ON logement.id = mutation.logement_id
+
+--
+
+INNER JOIN localisation ON localisation.id = logement.localisation_ID
+
+--
+
+GROUP BY localisation.commune
+
+--
+
+ORDER BY "Valeur moyenne" DESC
+
+--
+
+LIMIT 20
+;

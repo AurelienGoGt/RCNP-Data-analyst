@@ -1,0 +1,15 @@
+SELECT  nombres_de_pieces , ROUND ((COUNT(nombres_de_pieces) / 31378)*100,2) AS "Pourcentages_ventes_d'appartements"
+
+-- Calcul nombre de piéce à 2 décimals
+
+FROM logement
+
+WHERE type_de_local = 'Appartement'
+
+-- choix du local = appartement 
+
+    AND nombres_de_pieces <> 0
+    
+-- nombre de piéces strictement supérieur à 0
+    
+GROUP BY nombres_de_pieces

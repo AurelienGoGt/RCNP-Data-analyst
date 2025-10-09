@@ -1,0 +1,16 @@
+
+
+SELECT LEFT (Localisation.code_postal,2) AS "Lieu",round(avg(valeur_fonciere	/	surface_carrez),2)
+ AS "Prix au m²"
+
+FROM mutation 
+
+INNER JOIN logement ON mutation.Logement_id = logement.id
+INNER JOIN localisation ON logement.Localisation_id = localisation.id 
+
+GROUP BY LEFT (Localisation.code_postal,2)
+ORDER BY SUM (mutation.valeur_fonciere)/SUM(logement.Surface_carrez) DESC
+
+Limit 10 ;
+
+
