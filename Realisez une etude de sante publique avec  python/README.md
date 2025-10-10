@@ -1,67 +1,46 @@
-# 🥗 Projet 1 — Analyse des données de sous-nutrition
+<h1 align="center"> 🎯 🥗 Projet 1 — Analyse des données de sous-nutrition </h1>
 
 > 🧠 *« Avant de nourrir les modèles, nourrissons notre compréhension des données. »*
 
 ---
 
-## 🎯 Objectifs du projet
+<h2 align="center"> 🎯 Objectifs du projet : </h2>
+
+> 🧠 *«Prenez en main le langage Python pour analyser les données de la FAO sur la faim dans le monde. »*
 
 - Explorer les données liées à la **sous-nutrition** (paramètres alimentaires, indicateurs de santé).  
-- Nettoyer les données : traitement des valeurs manquantes, normalisation, suppression d’anomalies.  
+- Nettoyer les données : traitement des **valeurs manquantes**, **normalisation**, **suppression d’anomalies** si besoin.  
 - Analyser les relations entre les variables nutritionnelles, démographiques et sanitaires.  
-- Identifier les indicateurs clés pour orienter les futures analyses ou modélisations.  
-- Préparer un dataset prêt à être utilisé pour des modèles prédictifs ou comparatifs.
+- Identifier les **indicateurs clés** pour orienter les futures analyses ou modélisations.  
 
 ---
 
-## 🧰 Outils & librairies
+<h2 align="center"> 🧰 Outils & librairies : </h2>
 
-- **Python**  
-- **Jupyter Notebook**  
-- **Pandas**, **NumPy**  
-- **Matplotlib**, **Seaborn**  
-- (Éventuellement) **Scikit-learn** pour transformations exploratoires
+- Language : **Python**  
+- Software : **Jupyter Notebook**  
+- Librairies pour analyse : **Pandas**, **NumPy**  
+- Librairies pour visualisation : **Matplotlib**, **Seaborn**  
 
 ---
 
-## 🔍 Étapes principales
+<h2 align="center"> 🔍 Étapes principales : </h2>
 
-1. Chargement des données + aperçu initial  
+1. Chargement des données + aperçu initial + formatting
 2. Diagnostic : types, valeurs manquantes, doublons  
-3. Traitement des anomalies, uniformisation des unités  
-4. Analyse univariée : distributions, statistiques descriptives  
-5. Analyse bivariée / multivariée : corrélations, scatterplots, heatmaps  
-6. Préparation : encodage, transformation, normalisation  
-7. Analyse exploratoire plus poussée selon hypothèses santé/nutrition
+3. Traitement des anomalies, uniformisation des unités
+4. Feature Engineering 
+5. Analyse univariée : distributions, statistiques descriptives  
+6. Analyse exploratoire plus poussée selon hypothèses santé/nutrition requises pour le projet
 
 ---
 
-## 📈 Résultats & enseignements attendus
+<h2 align="center"> 📈 Résultats & enseignements attendus : </h2>
 
-- Identification d’associations fortes (ex : entre nutrition & indicateurs démographiques)  
-- Détection de valeurs aberrantes ou de biais dans les données  
-- Dataset nettoyé et structuré pour analyses plus poussées  
-- Hypothèses à tester dans le cadre de modélisations futures
-
----
-
-## 🗂 Organisation du dépôt
-
-Projet_1_SousNutrition/
-├── README.md
-├── Projet_1_Notebook.ipynb
-└── data/
-└── <fichiers_données>.csv
+- Manipuler des DataFrames
+- Utiliser des librairies spécialisées pour les traitements data
+- Rédiger et présenter une méthodologie d'exploration et d'analyse des données
 
 ---
 
-## 🔜 Prochaines étapes suggérées
-
-- Construire un modèle de prédiction lié à la nutrition / santé  
-- Comparer des groupes démographiques (pays, région, âge)  
-- Appliquer des techniques de réduction de dimension (PCA, clustering)  
-- Enrichir les données avec des indicateurs externes (économiques, géographiques)
-
----
-
-<h3 align="center">📌 Réalisé dans le cadre d’un apprentissage en Data Analyst / Data Science 
+<h3 align="center">📌 Réalisé dans le cadre de la formation Data Analyst. </h3>
