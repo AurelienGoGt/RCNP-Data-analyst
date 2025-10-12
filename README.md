@@ -37,15 +37,15 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 | N° | Projet | Thématique principale | Langage / Outil | 
 |----|----------|------------------------|-----------------|
 | 1 | Prenez en main votre formation de Data Analyst | Soft skills, cadrage, mindset analyste | — | 
-| 2 | Analyse des ventes e-commerce | Visualisation et storytelling | Excel |
-| 3 | Base de données immobilière | SQL et modélisation relationnelle | SQL |
-| 4 | Étude santé publique | Analyse exploratoire | Python | 
-| 5 | Gestion des données boutique | Nettoyage et structuration | Python | 
-| 6 | Analyse des ventes d’une librairie | Séries temporelles & statistiques | Python | 
-| 7 | Indicateurs égalité F/H | ETL & Data Governance | KNIME | 
-| 8 | Étude eau potable | Tableau  | Tableau & storytelling |
-| 9 | Étude de marché | Clustering - ACP | Python | 
-| 10 | Détection de faux billets | Modélisation prédictive | Python | 
+| 2 | Faites une analyse des ventes pour un e-commerce | Visualisation et storytelling | Excel |
+| 3 | Créez et utilisez une base de données immobilière avec SQL | SQL et modélisation relationnelle | SQL |
+| 4 | Réalisez une étude de santé publique avec Python | Analyse exploratoire | Python | 
+| 5 | Optimisez la gestion des données d'une boutique avec Python | Nettoyage et structuration | Python | 
+| 6 | Analysez les ventes d'une librairie avec Python | Séries temporelles & statistiques | Python | 
+| 7 | Analysez des indicateurs de l'égalité femme-homme avec Knime | ETL & Data Governance | KNIME | 
+| 8 | Faites une étude sur l'eau potable | Tableau  | Tableau & storytelling |
+| 9 | Produisez une étude de marché avec Python | Clustering - ACP | Python | 
+| 10 | Détectez des faux billets avec Python | Modélisation prédictive | Python | 
 
 ---
 
@@ -67,7 +67,7 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 
 ---
 
-<h3 align="center"> 📊 Projet 2 — Analyse des ventes e-commerce : </h3>
+<h3 align="center"> 📊 Projet 2 — Faites une analyse des ventes pour un e-commerce : </h3>
 
 **Compétences clés :**
 
@@ -79,7 +79,7 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 
 ---
 
-<h3 align="center"> 📊 Projet 3 — Base de données immobilière avec SQL : </h3>
+<h3 align="center"> 📊 Projet 3 — Créez et utilisez une base de données immobilière avec SQL : </h3>
 
 **Compétences clés :**
 
@@ -93,7 +93,7 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 
 ---
 
-<h3 align="center"> 📊 Projet 4 — Étude de santé publique : </h3>
+<h3 align="center"> 📊 Projet 4 — Réalisez une étude de santé publique avec Python : </h3>
  
 **Compétences clés :**
 
@@ -105,7 +105,7 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 
 ---
 
-<h3 align="center"> 📊 Projet 5 — Optimisation de la gestion des données d’une boutique : </h3>
+<h3 align="center"> 📊 Projet 5 — Optimisez la gestion des données d'une boutique avec Python : </h3>
 
 **Compétences clés :**
 
@@ -115,7 +115,7 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 
 > 🧠 *Objectif : Les données de cette entreprise sont mal organisées. Faites cohabiter les différents jeux de données pour effectuer l'analyse demandée.*
 
-<h3 align="center"> 📊 Projet 6 — Analyse des ventes d’une librairie : </h3>
+<h3 align="center"> 📊 Projet 6 — Analysez les ventes d'une librairie avec Python : </h3>
  
 **Compétences clés :**
 
@@ -125,7 +125,7 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 
 > 🧠 *Objectif : Vous avez accès à toutes les données de vente de votre client, une librairie. Répondez à leurs demandes en analysant les comportements d'achats.*
 
-<h3 align="center"> 📊 Projet 7 — Indicateurs de l’égalité femme-homme avec KNIME : </h3>
+<h3 align="center"> 📊 Projet 7 — Analysez des indicateurs de l'égalité femme-homme avec Knime : </h3>
  
 **Compétences clés :**
 
@@ -135,7 +135,7 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 
 > 🧠 *Objectif : Collectez les données des collaborateurs de votre entreprise en respectant le RGPD. Puis tirez-en les indicateurs de l'égalité homme-femme avec l'outil d'ETL Knime.*
 
-<h3 align="center"> 📊 Projet 8 — Étude sur l’accès à l’eau potable : </h3>
+<h3 align="center"> 📊 Projet 8 —  Faites une étude sur l'eau potable : </h3>
  
 **Compétences clés :**
 
@@ -146,7 +146,7 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 
 > 🧠 *Objectif : Créez des dashboards sur Tableau pour visualiser des données soit sur le thème de l'accès à l'eau potable dans le monde pour une ONG, soit sur un autre thème de votre choix.*
 
-<h3 align="center"> 📊 Projet 9 — Étude de marché et segmentation client : </h3>
+<h3 align="center"> 📊 Projet 9 — Produisez une étude de marché avec Python : </h3>
  
 **Compétences clés :**
 
@@ -155,7 +155,7 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 
 > 🧠 *Objectif : Etudiez le marché de votre entreprise grâce à du clustering et une ACP pour faire des recommandations stratégiques.*
 
-<h3 align="center"> 📊 Projet 10 — Détection de faux billets : </h3>
+<h3 align="center"> 📊 Projet 10 — Détectez des faux billets avec Python : </h3>
  
 **Compétences clés :**
 
@@ -169,15 +169,6 @@ Ce repository regroupe mes projets durant le parcours **Data Analyst** chez **Op
 </details>
 
 ---
-
-<h2 align="center"> 🧾 Journal de versions </h2>
-
-| Étape | Date | Description | Statut |
-|--------|--------------|--------|--------|
-| **v1.0** | Oct 2025 | Création du dépôt, ajout du plan de formation. | ✅ Terminé |
-| **v1.1** | n/a | Ajout des premiers notebooks et jeux de données | 🔜 En cours |
-| **v1.2** | n/a | Amelioration de la version faites durant ma formation| 🚧 À venir |
-
 
 <h2 align="center"> 🧰 Stack technique utilisée : </h2>
 
