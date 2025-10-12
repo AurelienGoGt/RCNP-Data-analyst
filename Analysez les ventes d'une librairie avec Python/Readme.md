@@ -1,4 +1,4 @@
-<h1 align="center"> 📚 Projet 6 — Analyse des ventes d'une librairie en ligne
+<h1 align="center"> 📚 Projet 6 — Analyse des ventes d'une librairie en ligne </h1>
 
 > 🧠 *« Comprendre les ventes pour mieux orienter la stratégie commerciale. »*
 
