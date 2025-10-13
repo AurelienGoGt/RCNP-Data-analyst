@@ -1,4 +1,4 @@
-<h1 align="center">📊 Projet — Réalisez un projet de Data Visualisation Professionnelle : </h1>
+<h1 align="center">📊 Projet 8 — Réalisez un projet de Data Visualisation Professionnelle : </h1>
 
 > 🧠 *« Comprendre, transformer et communiquer les données pour répondre à des besoins métiers réels. »*
 
@@ -18,40 +18,39 @@
 
 <h2 align="center">🛠️ Outils & technologies : </h2>
 
-Software : **Tableau Software**
+- Software : **Tableau Software**
 
 ---
 
 <h2 align="center">🔍 Démarche analytique : </h2>
 
-- **1. Analyse du besoin client**  
+- **1. Analyse du besoin client** :
   Compréhension du contexte métier, définition des enjeux et formulation des questions analytiques.  
 
-- **2. Recherche et collecte de données**  
+- **2. Recherche et collecte de données**  :
   Sélection de sources pertinentes, vérification de la fiabilité et structuration initiale.  
 
-- **3. Prétraitement & nettoyage**  
+- **3. Prétraitement & nettoyage**  :
   Gestion des valeurs manquantes, normalisation des formats et enrichissement éventuel.  
 
-- **4. Conception de la data visualisation**  
+- **4. Conception de la data visualisation**  :
   Choix des graphiques selon le type de données et le message à transmettre.  
   Application des principes de lisibilité, hiérarchisation visuelle et cohérence graphique.  
 
-- **5. Construction du tableau de bord**  
+- **5. Construction du tableau de bord**  :
   Réalisation d’un tableau de bord interactif et fonctionnel, orienté utilisateur.  
   Intégration des indicateurs clés, filtres et zones narratives pour un **data storytelling fluide**.  
 
-- **6. Restitution & soutenance**  
+- **6. Restitution & soutenance**  :
   Présentation orale du projet devant un mentor évaluateur, démontrant la maîtrise des outils et la compréhension analytique.  
 
 ---
 
-<h2 align="center">📈 Résultats & livrables attendus : </h2>
+<h2 align="center">📈 Résultats & enseignement attendus : </h2>
 
 - Un **tableau de bord dynamique** adapté au besoin client  
 - Un **rapport d’analyse** synthétisant les résultats et les insights  
-- Les **fichiers sources nettoyés et documentés**  
-- Une **présentation structurée** pour la soutenance  
+
 
 ---
 
