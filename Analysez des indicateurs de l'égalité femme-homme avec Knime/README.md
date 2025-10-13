@@ -38,9 +38,9 @@ Software : KNIME Analytics Platform, Excel
 
 <h2 align="center"> 📈 Résultats & livrables attendus : </h2>
 
-Collecter des données en respectant le RGPD
-Préparer des données pour l'analyse en respectant les normes internes à l’entreprise
-Transférer des données vers une zone de préparation
+- Collecter des données en respectant le RGPD
+- Préparer des données pour l'analyse en respectant les normes internes à l’entreprise
+- Transférer des données vers une zone de préparation
 
 ---
 
