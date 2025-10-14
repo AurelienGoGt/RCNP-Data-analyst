@@ -1,4 +1,4 @@
-<h1 align="center"> 📚 Projet 9 — Produisez une étude de marché avec Python
+<h1 align="center"> 📚 Projet 9 — Produisez une étude de marché avec Python </h1>
 
 > 🧠 *« Comprendre le marché pour orienter la stratégie de l’entreprise. »*
 
