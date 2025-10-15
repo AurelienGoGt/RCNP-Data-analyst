@@ -22,7 +22,6 @@
 - **Environnement de travail** : Jupyter Notebook 
 - **Librairies d’analyse (Python)** : `pandas`, `numpy`, `scikit-learn`, `scipy`, `statsmodels`  
 - **Librairies de visualisation (Python)** : `matplotlib`, `seaborn`, `plotly`  
-- **Librairies (R)** : `tidyverse`, `ggplot2`, `dplyr`, `caret`, `glmnet`, `factoextra`  
 
 ---
 
